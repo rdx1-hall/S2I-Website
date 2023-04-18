@@ -12,18 +12,7 @@ margin-left: 130px;
 margin-top: 100px;
 display: flex;
 }
-.heading{
-    top: 3118px;
-left: 453px;
-width: 374px;
-height: 99px;
-/* UI Properties */
-text-align: center;
-font: normal normal bold 34px/57px Montserrat;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
-}
+
 .number1{
     // padding: 80px;
     // margin-left: 10px;
@@ -52,30 +41,22 @@ color: #363535;
 opacity: 1;
 }
 .number3{
-    // padding: 90px;
-    top: 3410px;
-left: 712px;
-width: 128px;
-height: 22px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 18px/35px Montserrat;
-letter-spacing: 0px;
-color: #363535;
-opacity: 1;
+    margin-left: 250px;
+    margin-top: 100px;
+    text-align: center;
+
 }
 .number4{
-    // padding: 140px;
-    top: 3410px;
-left: 712px;
-width: 128px;
-height: 22px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 18px/35px Montserrat;
-letter-spacing: 0px;
-color: #363535;
-    // padding-left: 40px;
+    margin-left: 550px;
+    margin-top: 100px;
     text-align: center;
-    // margin-left:1000px;
+   
+
+}
+.heading{
+    
+    top: 100px;
+    text-align: center;
+
+    // background-color: red;
 }
