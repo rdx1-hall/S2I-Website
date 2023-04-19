@@ -29,41 +29,198 @@
     margin-top: 30px;
     letter-spacing: -0.5px;
 }
-.logo{
-   position: relative;
-   left: 136px;
-   top: 18px;
+
+.logo {
+    position: relative;
+    left: 136px;
+    top: 18px;
 }
-.secondbox{
+
+.secondbox {
     position: absolute;
     left: 136px;
     top: 300px;
     color: #ffffff;
     width: 350px;
     height: 213px;
-   
+
 }
-.secondbox b{
+
+.secondbox b {
     color: #FDC58B;
 }
-.secondbox h1{
+
+.secondbox h1 {
     letter-spacing: 2px;
 }
 
-.btn{
+.btn {
     margin-top: 40px;
-    background-color:#FDC58B; 
+    background-color: #FDC58B;
     padding: 20px;
     border: none;
     font-size: 20px;
     border-radius: 5px;
-    
+
 }
-.qoute{
-color: #ffffff;
-position: relative;
-top: 50px;
-left: 70px;
-opacity: 0.5;
-padding: 10px;
+
+.qoute {
+    color: #ffffff;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    opacity: 0.5;
+    padding: 10px;
+}
+
+.moving {
+    display: flex;
+    position: relative;
+    top: -453px;
+}
+
+.womenimage {
+    border: solid 1px black;
+    height: 587px;
+    width: 600px;
+}
+
+.womenimage img {
+    height: 587px;
+    width: 600px;
+}
+
+.sidetext {
+    border: solid 1px black;
+    height: 587px;
+    width: 600px;
+    position: relative;
+    left: 100px;
+    font-family: 'Montserrat', SemiBold;
+    background-color: transparent;
+}
+
+.sidetext h1 {
+    // font-size: 30px;
+    // font: normal normal bold 34px/57px Montserrat;
+    top: -5px;
+    left: -1px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 34px/57px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+}
+
+.sidetext p {
+    top: 200px;
+    left: 500px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/37px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.sideimage img {
+    width: 155px;
+    height: 41px;
+    position: relative;
+    left: 200px;
+    top: -16px;
+}
+
+.sidetext span {
+    color: #FDC58B;
+    position: relative;
+    top: 10px;
+}
+
+.boximage {
+    position: relative;
+    top: 27px;
+    left: 35px;
+}
+
+.boxtext {
+    font: normal normal normal 18px/35px Montserrat;
+    letter-spacing: 0px;
+    color: #534f4f;
+    opacity: 1;
+    position: relative;
+    left: 15px;
+    top: 31px;
+}
+
+.heading {
+    text-align: center;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-image: url("../assets/pattern.png");
+    background-size: cover;
+    position: relative;
+    top: 78%;
+    left: -35.4028320313px;
+    width: 1387px;
+    height: 1476px;
+}
+
+.mainbox1 {
+    display: flex;
+    height: 200px;
+    width: 86%;
+    position: relative;
+    top: -228px;
+    left: 247px;
+
+
+
+}
+
+.mainbox2 {
+    display: flex;
+    height: 200px;
+    width: 86%;
+    position: relative;
+    top: -96px;
+    left: 247px;
+
+}
+
+.mainbox3 {
+    display: flex;
+    height: 200px;
+    width: 86%;
+    position: relative;
+    top: 35px;
+    left: 247px;
+
+}
+
+.box {
+    width: 400px;
+    height: 280px;
+    border-radius: 24px;
+    border: solid 1px black;
+    margin: 24px;
+    background-color: white;
 }
